@@ -1,10 +1,10 @@
 # Gemini Clone using React.JS
 
-![Screenshot (137)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/c0661cef-0063-42b7-902b-4579e360c3dc)
+![Screenshot (1218)](https://github.com/user-attachments/assets/bbe81d6c-316f-4fdc-892c-685e8e247dcd)
 
-![Screenshot (138)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/f4c304be-09f5-4d3d-ae20-2fd3b6ef03b1)
+![Screenshot (1219)](https://github.com/user-attachments/assets/dbaf3845-eaf6-4456-95f0-c5a457be58b3)
 
-![Screenshot (140)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/b3df165c-ff04-495d-a848-416af5e697fd)
+![Screenshot (1221)](https://github.com/user-attachments/assets/7b4217e4-4f18-4c5a-ba63-c0f83403b7d6)
 
 
 - This project is a Gemini Clone built with React, utilizing Vite for a modern development experience and integrating Google AI Studio API for enhanced functionalities.
@@ -34,20 +34,13 @@
 
 ## Screenshot
 
+![Screenshot (1218)](https://github.com/user-attachments/assets/bbe81d6c-316f-4fdc-892c-685e8e247dcd)
 
-![Screenshot (139)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/7fa61266-e8f1-41f1-aa1c-ee051047323a)
+![Screenshot (1219)](https://github.com/user-attachments/assets/dbaf3845-eaf6-4456-95f0-c5a457be58b3)
 
-![Screenshot (140)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/b3df165c-ff04-495d-a848-416af5e697fd)
+![Screenshot (1221)](https://github.com/user-attachments/assets/7b4217e4-4f18-4c5a-ba63-c0f83403b7d6)
 
-![Screenshot (141)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/e5dfa091-4f58-4df6-a541-5b52c8797b9a)
-
-![Screenshot (142)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/c69c85cb-6352-4a2a-abdc-d2061aeb55ab)
-
-![Screenshot (137)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/c0661cef-0063-42b7-902b-4579e360c3dc)
-
-![Screenshot (138)](https://github.com/RohanShrivastava08/Gemini-Clone-using-React.js/assets/94133270/f4c304be-09f5-4d3d-ae20-2fd3b6ef03b1)
-
-
+![Screenshot (1222)](https://github.com/user-attachments/assets/be89a158-80b8-4867-8d67-129d458b87a8)
 
 ## Technologies Used
 #### React: A JavaScript library for building user interfaces.
