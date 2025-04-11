@@ -14,7 +14,7 @@
 - Features
 - Screenshot
 - Technologies Used
-- Installation
+- Local Development
 - Configuration
 - Running the Project
 - Usage
@@ -48,27 +48,17 @@
 #### Google AI Studio API: Provides enhanced functionalities through API integration.
 #### CSS: For styling and layout.
 
-## Installation
-- To get started with this project, follow these steps:
-
-- Clone the Repository
+## Local Development
+To run this project locally, follow these steps:
 
 ```bash
-
-git clone https://github.com/your-username/gemini-clone-project.git
-```
-
-- Navigate to the Project Directory
-
-```bash
-cd gemini-clone-project
-```
-
-## Install Dependencies
-
-```bash
+git clone https://github.com/RohanShrivastava08/Gemini-AI-Clone
+cd Gemini-AI-Clone
 npm install
+npm run dev
 ```
+
+The application will be available at http://localhost:3000
 
 ## Configuration
 #### Obtain Google AI Studio API Key
