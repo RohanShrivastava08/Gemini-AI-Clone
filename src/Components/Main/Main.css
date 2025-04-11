@@ -174,7 +174,7 @@ img.search-box-icon {
 }
 
 .send-button {
-  transition: all 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
   border-radius: 50%;
 }
 
