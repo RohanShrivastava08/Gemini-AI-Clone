@@ -4,7 +4,17 @@ import { assets } from "../../assets/assets";
 import { Context } from "../../Context/context";
 
 const Main = () => {
-  const { onSent, recentPrompt, showResult, loading, resultData, setInput, input, prevPrompts, setPrevPrompts } = useContext(Context);
+  const {
+    onSent,
+    recentPrompt,
+    showResult,
+    loading,
+    resultData,
+    setInput,
+    input,
+    prevPrompts,
+    setPrevPrompts,
+  } = useContext(Context);
 
   // Load chat history from localStorage on component mount
   useEffect(() => {
@@ -40,23 +50,53 @@ const Main = () => {
         {!showResult ? (
           <>
             <div className="greet">
-              <p><span>Hello, Rohan</span></p>
+              <p>
+                <span>Hello, Rohan</span>
+              </p>
               <p>How can I help you today?</p>
             </div>
             <div className="cards">
-              <div className="card" onClick={() => handleCardClick("Help me pick a movie to watch based on a genre")}>
+              <div
+                className="card"
+                onClick={() =>
+                  handleCardClick(
+                    "Help me pick a movie to watch based on a genre"
+                  )
+                }
+              >
                 <p>Help me pick a movie to watch based on a genre</p>
                 <img src={assets.compass_icon} alt="Compass Icon" />
               </div>
-              <div className="card" onClick={() => handleCardClick("Provide questions to help me prepare for an interview")}>
+              <div
+                className="card"
+                onClick={() =>
+                  handleCardClick(
+                    "Provide questions to help me prepare for an interview"
+                  )
+                }
+              >
                 <p>Provide questions to help me prepare for an interview</p>
                 <img src={assets.bulb_icon} alt="Bulb Icon" />
               </div>
-              <div className="card" onClick={() => handleCardClick("Help me get organized with a list of 10 tips")}>
+              <div
+                className="card"
+                onClick={() =>
+                  handleCardClick(
+                    "Help me get organized with a list of 10 tips"
+                  )
+                }
+              >
                 <p>Help me get organized with a list of 10 tips</p>
                 <img src={assets.message_icon} alt="Message Icon" />
               </div>
-              <div className="card" onClick={() => handleCardClick("Help me incorporate more plant-based options in my diet")}>
+              <div
+                className="card"
+                onClick={() =>
+                  handleCardClick(
+                    "Help me incorporate more plant-based options in my diet"
+                  )
+                }
+              >
                 <p>Help me incorporate more plant-based options in my diet</p>
                 <img src={assets.code_icon} alt="Code Icon" />
               </div>
@@ -91,14 +131,31 @@ const Main = () => {
               placeholder="Enter a prompt here"
               onKeyDown={handleKeyDown} // Enable sending on Enter key
             />
-            <div>
-              <img src={assets.gallery_icon} alt="Gallery Icon" />
-              <img src={assets.mic_icon} alt="Mic Icon" />
-              {input ? <img onClick={() => onSent()} src={assets.send_icon} alt="Send Icon" /> : null}
+            <div className="search-box-icons">
+              <img
+                src={assets.gallery_icon}
+                alt="Gallery Icon"
+                className="search-box-icon"
+              />
+              <img
+                src={assets.mic_icon}
+                alt="Mic Icon"
+                className="search-box-icon"
+              />
+              {input ? (
+                <img
+                  onClick={() => onSent()}
+                  src={assets.send_icon}
+                  alt="Send Icon"
+                  className="send-button search-box-icon"
+                />
+              ) : null}
             </div>
           </div>
           <p className="bottom-info">
-            Gemini may display inaccurate info, including about people, so double-check its responses. <a href="#">Your privacy & Gemini Apps</a>
+            Gemini may display inaccurate info, including about people, so
+            double-check its responses.{" "}
+            <a href="#">Your privacy & Gemini Apps</a>
           </p>
         </div>
       </div>
