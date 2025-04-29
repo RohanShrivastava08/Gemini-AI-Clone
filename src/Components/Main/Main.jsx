@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import "./Main.css";
 import { assets } from "../../assets/assets";
 import { Context } from "../../Context/context";
+import Spinner from "../Spinner/Spinner";
 
 const Main = () => {
   const {
@@ -111,11 +112,7 @@ const Main = () => {
             <div className="result-data">
               <img src={assets.gemini_icon} alt="Gemini Icon" />
               {loading ? (
-                <div className="loader">
-                  <hr />
-                  <hr />
-                  <hr />
-                </div>
+                <Spinner />
               ) : (
                 <p dangerouslySetInnerHTML={{ __html: resultData }}></p>
               )}
